@@ -21,9 +21,9 @@
 require_once($modx->getConfig('base_path').'assets/libs/ddTools/modx.ddtools.class.php');
 
 //The snippet must return an empty string even if result is absent
-$result = '';
+$snippetResult = '';
 
 //TODO: Здесь пишем непосредственно код сниппета.
 
-return $result;
+return $snippetResult;
 ?>
