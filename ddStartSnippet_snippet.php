@@ -5,9 +5,9 @@
  * 
  * @desc Здесь должно быть описание сниппета, в идеале — на английском. Всё, что ниже — лишь примеры, надо заполнить реальной информацией.
  * 
- * @uses PHP >= 5.4.
- * @uses (MODX)EvolutionCMS >= 1.1 {@link https://github.com/evolution-cms/evolution }.
- * @uses (MODX)EvolutionCMS.libraries.ddTools >= 0.23 {@link http://code.divandesign.biz/modx/ddtools }.
+ * @uses PHP >= 5.4
+ * @uses (MODX)EvolutionCMS >= 1.1 {@link https://github.com/evolution-cms/evolution }
+ * @uses (MODX)EvolutionCMS.libraries.ddTools >= 0.23 {@link http://code.divandesign.biz/modx/ddtools }
  * 
  * @param $someParameter {string} — Описание конкретного параметра, в идеале — на английском. @required
  * 
