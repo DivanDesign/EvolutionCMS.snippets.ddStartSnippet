@@ -18,7 +18,7 @@
 
 //TODO: Если ddTools не используется — удалить этот код
 //Include (MODX)EvolutionCMS.libraries.ddTools
-require_once($modx->getConfig('base_path').'assets/libs/ddTools/modx.ddtools.class.php');
+require_once($modx->getConfig('base_path') . 'assets/libs/ddTools/modx.ddtools.class.php');
 
 //The snippet must return an empty string even if result is absent
 $snippetResult = '';
