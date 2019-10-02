@@ -37,6 +37,18 @@ Elements → Snippets: Create a new snippet with the following data:
 		* `0`
 		* `1`
 	* Default value: —
+	
+* `tpl`
+	* Desctription: Какой-то шаблон.
+		
+		Available placeholders:
+		* `[+somePlaceholder1+]` — Описание плейсхолдера 1.
+		* `[+somePlaceholder2+]` — Описание плейсхолдера 2.
+		
+	* Valid values:
+		* `string_chunkName`
+		* `string` — use inline templates starting with `@CODE:`
+	* **Required**
 
 
 ## # [Home page →](https://code.divandesign.biz/modx/ddstartsnippet)
