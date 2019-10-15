@@ -13,13 +13,15 @@
 
 
 ### ## Installation
-Elements → Snippets: Create a new snippet with the following data:
-
-1. Snippet name: `ddStartSnippet`.
-2. Description: `<b>1.0</b> Описание сниппета.`.
-3. Category: `Core`.
-4. Parse DocBlock: `no`.
-5. Snippet code (php): Insert content of the `ddStartSnippet_snippet.php` file from the archive.
+1. Elements → Snippets: Create a new snippet with the following data:
+	1. Snippet name: `ddStartSnippet`.
+	2. Description: `<b>1.0</b> Описание сниппета.`.
+	3. Category: `Core`.
+	4. Parse DocBlock: `no`.
+	5. Snippet code (php): Insert content of the `ddStartSnippet_snippet.php` file from the archive.
+2. Elements → Manage Files:
+	1. Create a new folder `assets/snippets/ddStartSnippet/`.
+	2. Extract the archive to the folder (except `ddStartSnippet_snippet.php`).
 
 
 ### ## Parameters description
