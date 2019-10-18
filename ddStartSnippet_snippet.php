@@ -5,8 +5,6 @@
  * 
  * @see README.md
  * 
- * @link http://code.divandesign.biz/modx/ddstartsnippet
- * 
  * @copyright 2018 DivanDesign {@link http://www.DivanDesign.biz }
  */
 
