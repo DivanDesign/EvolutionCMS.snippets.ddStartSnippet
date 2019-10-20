@@ -1,0 +1,15 @@
+{
+	"name": "dd/evolutioncms-snippets-ddstartsnippet",
+	"type": "modxevo-snippet",
+	"version": "1.0",
+	"description": "Описание сниппета.",
+	"keywords": [
+		"modx",
+		"modx evo",
+		"modx evolution",
+		"evo",
+		"evo cms",
+		"evolution cms",
+		"ddstartsnippet"
+	]
+}
