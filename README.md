@@ -60,4 +60,16 @@
 	* Default value: —
 
 
+### ## Examples
+
+
+#### ### Example 1 title
+
+Some example description.
+
+```
+//Some exmaple code
+```
+
+
 ## # [Home page →](https://code.divandesign.biz/modx/ddstartsnippet)
