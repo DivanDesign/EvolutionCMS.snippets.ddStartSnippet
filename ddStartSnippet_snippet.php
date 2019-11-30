@@ -5,7 +5,7 @@
  * 
  * @see README.md
  * 
- * @copyright 2018 DivanDesign {@link http://www.DivanDesign.biz }
+ * @copyright 2018 DivanDesign {@link https://www.DivanDesign.biz }
  */
 
 //TODO: Если ddTools не используется — удалить этот код
