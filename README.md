@@ -1,6 +1,6 @@
 # (MODX)EvolutionCMS.snippets.ddStartSnippet
 
-Здесь должно быть описание сниппета, в идеале — на английском. Всё, что ниже — лишь примеры, надо заполнить реальной информацией.
+Этот репозиторий — стартовый шаблон сниппета. Создавая новый сниппет используем этот, как основу. Здесь должно быть описание сниппета, в идеале — на английском. Всё, что ниже — лишь примеры, надо заполнить реальной информацией.
 
 
 ## Requires
@@ -16,6 +16,7 @@
 
 
 #### 1. Elements → Snippets: Create a new snippet with the following data
+
 1. Snippet name: `ddStartSnippet`.
 2. Description: `<b>1.0</b> Описание сниппета.`.
 3. Category: `Core`.
@@ -24,6 +25,7 @@
 
 
 #### 2. Elements → Manage Files:
+
 1. Create a new folder `assets/snippets/ddStartSnippet/`.
 2. Extract the archive to the folder (except `ddStartSnippet_snippet.php`).
 
