@@ -8,7 +8,8 @@ body {
 	line-height: 1.4em;
 }
 h1,h2,h3,h4,h5,h6 {
-	margin-top: 0.6em;
+	border-bottom: 1px dashed hsla(0, 0%, 0%, 0.4);
+	margin-top: 1.5em;
 	margin-bottom: 0.2em;
 }
 h1,h2,h3 {
@@ -21,12 +22,18 @@ h6 {
 	font-weight: 500;
 }
 h1 {
+	border-bottom-width: 4px;
+	border-bottom-color: hsla(0, 0%, 0%, 0.2);
 	font-size: 2.3em;
 }
 h2 {
-	font-size: 2em;
+	border-bottom-width: 3px;
+	border-bottom-color: hsla(0, 0%, 0%, 0.2);
+	font-size: 2.1em;
 }
 h3 {
+	border-bottom-width: 2px;
+	border-bottom-color: hsla(0, 0%, 0%, 0.3);
 	font-size: 1.8em;
 }
 h4 {
