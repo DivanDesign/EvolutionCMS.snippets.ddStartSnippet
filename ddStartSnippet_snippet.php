@@ -5,7 +5,9 @@
  * 
  * @see README.md
  * 
- * @copyright 2018 DivanDesign {@link https://www.DivanDesign.biz }
+ * @link http://code.divandesign.biz/modx/ddstartsnippet
+ * 
+ * @copyright 2020 DivanDesign {@link https://www.DivanDesign.biz }
  */
 
 //TODO: Если ddTools не используется — удалить этот код
