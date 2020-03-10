@@ -38,28 +38,31 @@
 		* `string`
 		* `integer`
 	* **Required**
+	
 * `someParam2`
 	* Desctription: Parameter description.
 	* Valid values:
 		* `0`
 		* `1`
 	* Default value: —
+	
 * `tpl`
 	* Desctription: Какой-то шаблон.  
 		Available placeholders:
 		* `[+somePlaceholder1+]` — Описание плейсхолдера 1.
 		* `[+somePlaceholder2+]` — Описание плейсхолдера 2.
 	* Valid values:
-		* `string_chunkName`
+		* `stringChunkName`
 		* `string` — use inline templates starting with `@CODE:`
 	* **Required**
+	
 * `tpl_placeholders`
 	* Desctription:
 		Additional data has to be passed into the `tpl`.  
 		Arrays are supported too: `some[a]=one&some[b]=two` => `[+some.a+]`, `[+some.b+]`; `some[]=one&some[]=two` => `[+some.0+]`, `[some.1]`.
 	* Valid values:
-		* `stirng_json` — as [JSON](https://en.wikipedia.org/wiki/JSON)
-		* `string_queryFormated` — as [Query string](https://en.wikipedia.org/wiki/Query_string)
+		* `stirngJsonObject` — as [JSON](https://en.wikipedia.org/wiki/JSON)
+		* `stringQueryFormated` — as [Query string](https://en.wikipedia.org/wiki/Query_string)
 	* Default value: —
 
 
