@@ -82,4 +82,4 @@ Some example description.
 ## [Home page →](https://code.divandesign.biz/modx/ddstartsnippet)
 
 
-<link rel="stylesheet" type="text/css" href="md.css" />
+<link rel="stylesheet" type="text/css" href="https://DivanDesign.ru/assets/files/ddMarkdown.css" />
