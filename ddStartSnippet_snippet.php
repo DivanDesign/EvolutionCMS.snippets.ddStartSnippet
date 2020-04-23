@@ -1,7 +1,7 @@
 <?php
 /**
  * ddStartSnippet
- * @version 1.0 (2019-01-01)
+ * @version 1.0 (2020-01-01)
  * 
  * @see README.md
  * 
