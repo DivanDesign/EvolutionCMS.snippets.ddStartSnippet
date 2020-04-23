@@ -5,7 +5,7 @@
  * 
  * @see README.md
  * 
- * @link http://code.divandesign.biz/modx/ddstartsnippet
+ * @link https://code.divandesign.biz/modx/ddstartsnippet
  * 
  * @copyright 2020 DD Group {@link https://www.DivanDesign.biz }
  */
