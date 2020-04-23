@@ -7,7 +7,7 @@
  * 
  * @link http://code.divandesign.biz/modx/ddstartsnippet
  * 
- * @copyright 2020 DivanDesign {@link https://www.DivanDesign.biz }
+ * @copyright 2020 DD Group {@link https://www.DivanDesign.biz }
  */
 
 //TODO: Если ddTools не используется — удалить этот код
