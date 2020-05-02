@@ -25,7 +25,7 @@
 5. Snippet code (php): Insert content of the `ddStartSnippet_snippet.php` file from the archive.
 
 
-#### 2. Elements → Manage Files:
+#### 2. Elements → Manage Files
 
 1. Create a new folder `assets/snippets/ddStartSnippet/`.
 2. Extract the archive to the folder (except `ddStartSnippet_snippet.php`).
@@ -48,10 +48,10 @@
 	* Default value: —
 	
 * `tpl`
-	* Desctription: Какой-то шаблон.  
+	* Desctription: Some template.  
 		Available placeholders:
-		* `[+somePlaceholder1+]` — Описание плейсхолдера 1.
-		* `[+somePlaceholder2+]` — Описание плейсхолдера 2.
+		* `[+somePlaceholder1+]` — описание плейсхолдера 1
+		* `[+somePlaceholder2+]` — описание плейсхолдера 2
 	* Valid values:
 		* `stringChunkName`
 		* `string` — use inline templates starting with `@CODE:`
