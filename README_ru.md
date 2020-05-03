@@ -62,8 +62,8 @@
 		Дополнительные данные, которые будут переданы в чанк `tpl`.  
 		Вложенные объекты и массивы также поддерживаются: `some[a]=one&some[b]=two` => `[+some.a+]`, `[+some.b+]`; `some[]=one&some[]=two` => `[+some.0+]`, `[some.1]`.
 	* Допустимые значения:
-		* `stringJsonObject` — as [JSON](https://en.wikipedia.org/wiki/JSON)
-		* `stringQueryFormated` — as [Query string](https://en.wikipedia.org/wiki/Query_string)
+		* `stringJsonObject` — в виде [JSON](https://en.wikipedia.org/wiki/JSON)
+		* `stringQueryFormated` — в виде [Query string](https://en.wikipedia.org/wiki/Query_string)
 	* Значение по умолчанию: —
 
 
