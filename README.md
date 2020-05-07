@@ -50,8 +50,8 @@
 * `tpl`
 	* Desctription: Some template.  
 		Available placeholders:
-		* `[+somePlaceholder1+]` — описание плейсхолдера 1
-		* `[+somePlaceholder2+]` — описание плейсхолдера 2
+		* `[+somePlaceholder1+]` — placeholder 1 description
+		* `[+somePlaceholder2+]` — placeholder 2 description
 	* Valid values:
 		* `stringChunkName`
 		* `string` — use inline templates starting with `@CODE:`
