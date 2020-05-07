@@ -20,7 +20,7 @@ Here should be placed a description of the plugin. All texts below are examples,
 #### 1. Elements → Snippets: Create a new snippet with the following data
 
 1. Snippet name: `ddStartSnippet`.
-2. Description: `<b>1.0</b> Описание сниппета.`.
+2. Description: `<b>1.0</b> Snippet description.`.
 3. Category: `Core`.
 4. Parse DocBlock: `no`.
 5. Snippet code (php): Insert content of the `ddStartSnippet_snippet.php` file from the archive.
