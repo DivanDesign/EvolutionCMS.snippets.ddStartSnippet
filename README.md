@@ -1,6 +1,7 @@
 # (MODX)EvolutionCMS.snippets.ddStartSnippet
 
-Этот репозиторий — стартовый шаблон сниппета. Создавая новый сниппет используем этот, как основу. Здесь должно быть описание сниппета, в идеале — на английском. Всё, что ниже — лишь примеры, надо заполнить реальной информацией.
+This repository is snippet template. Use it when you create a new snippet repository.
+Here should be placed a description of the plugin. All texts below are examples, replace them with real information.
 
 
 ## Requires
