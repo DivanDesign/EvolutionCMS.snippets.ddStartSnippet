@@ -58,11 +58,13 @@
 	* **Обязателен**
 	
 * `tpl_placeholders`
-	* Описание:
-		Дополнительные данные, которые будут переданы в чанк `tpl`.  
-		Вложенные объекты и массивы также поддерживаются: `some[a]=one&some[b]=two` => `[+some.a+]`, `[+some.b+]`; `some[]=one&some[]=two` => `[+some.0+]`, `[some.1]`.
+	* Описание: Дополнительные данные, которые будут переданы в чанк `tpl`.    
+		Вложенные объекты и массивы также поддерживаются:
+		* `{"someOne": "1", "someTwo": "test" }` => `[+someOne+], [+someTwo+]`.
+		* `{"some": {"a": "one", "b": "two"} }` => `[+some.a+]`, `[+some.b+]`.
+		* `{"some": ["one", "two"] }` => `[+some.0+]`, `[+some.1+]`.
 	* Допустимые значения:
-		* `stringJsonObject` — в виде [JSON](https://en.wikipedia.org/wiki/JSON)
+		* `stringJsonObject` — в виде [JSON](https://ru.wikipedia.org/wiki/JSON)
 		* `stringQueryFormated` — в виде [Query string](https://en.wikipedia.org/wiki/Query_string)
 	* Значение по умолчанию: —
 
