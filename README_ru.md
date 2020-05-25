@@ -82,7 +82,10 @@
 ```
 
 
-## [Home page →](https://code.divandesign.biz/modx/ddstartsnippet)
+## Ссылки
+
+* [Home page](https://code.divandesign.ru/modx/ddstartsnippet)
+* [Telegram chat](https://tele.click/dd_code)
 
 
 <link rel="stylesheet" type="text/css" href="https://DivanDesign.ru/assets/files/ddMarkdown.css" />
