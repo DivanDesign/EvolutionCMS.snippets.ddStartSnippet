@@ -68,6 +68,9 @@ Here should be placed a description of the plugin. All texts below are examples,
 	* Valid values:
 		* `stringJsonObject` — as [JSON](https://en.wikipedia.org/wiki/JSON)
 		* `stringQueryFormated` — as [Query string](https://en.wikipedia.org/wiki/Query_string)
+		* It can also be set as a PHP object or array (e. g. for calls through `$modx->runSnippet`).
+			* `arrayAssociative`
+			* `object`
 	* Default value: —
 
 
