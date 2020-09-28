@@ -67,6 +67,9 @@
 	* Допустимые значения:
 		* `stringJsonObject` — в виде [JSON](https://ru.wikipedia.org/wiki/JSON)
 		* `stringQueryFormated` — в виде [Query string](https://en.wikipedia.org/wiki/Query_string)
+		* Также может быть задан, как нативный PHP объект или массив (например, для вызовов через `$modx->runSnippet`).
+			* `arrayAssociative`
+			* `object`
 	* Значение по умолчанию: —
 
 
