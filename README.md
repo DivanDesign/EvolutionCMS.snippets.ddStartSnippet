@@ -60,7 +60,7 @@ Here should be placed a description of the plugin. All texts below are examples,
 	
 * `tpl_placeholders`
 	* Desctription:
-		Additional data has to be passed into the `tools->tplParser->tpl`.  
+		Additional data has to be passed into the `tpl`.  
 		Nested objects and arrays are supported too:
 		* `{"someOne": "1", "someTwo": "test" }` => `[+someOne+], [+someTwo+]`.
 		* `{"some": {"a": "one", "b": "two"} }` => `[+some.a+]`, `[+some.b+]`.
@@ -68,7 +68,7 @@ Here should be placed a description of the plugin. All texts below are examples,
 	* Valid values:
 		* `stringJsonObject` — as [JSON](https://en.wikipedia.org/wiki/JSON)
 		* `stringQueryFormated` — as [Query string](https://en.wikipedia.org/wiki/Query_string)
-		* It can also be set as a PHP object or array (e. g. for calls through `$modx->runSnippet`).
+		* It can also be set as native PHP object or array (e. g. for calls through `$modx->runSnippet`):
 			* `arrayAssociative`
 			* `object`
 	* Default value: —
