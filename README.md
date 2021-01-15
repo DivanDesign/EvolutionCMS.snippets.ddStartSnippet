@@ -90,6 +90,7 @@ Some example description.
 
 * [Home page](https://code.divandesign.biz/modx/ddstartsnippet)
 * [Telegram chat](https://t.me/dd_code)
+* [Packagist](https://packagist.org/packages/dd/evolutioncms-snippets-ddstartsnippet)
 
 
 <link rel="stylesheet" type="text/css" href="https://DivanDesign.ru/assets/files/ddMarkdown.css" />

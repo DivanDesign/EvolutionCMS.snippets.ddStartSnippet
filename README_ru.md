@@ -89,6 +89,7 @@
 
 * [Home page](https://code.divandesign.ru/modx/ddstartsnippet)
 * [Telegram chat](https://tele.click/dd_code)
+* [Packagist](https://packagist.org/packages/dd/evolutioncms-snippets-ddstartsnippet)
 
 
 <link rel="stylesheet" type="text/css" href="https://DivanDesign.ru/assets/files/ddMarkdown.css" />
