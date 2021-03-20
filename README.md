@@ -8,7 +8,7 @@ Here should be placed a description of the plugin. All texts below are examples,
 
 * PHP >= 5.4
 * [(MODX)EvolutionCMS](https://github.com/evolution-cms/evolution) >= 1.1
-* [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.biz/modx/ddtools) >= 0.30
+* [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.biz/modx/ddtools) >= 0.47
 
 
 ## Documentation
@@ -67,6 +67,7 @@ Here should be placed a description of the plugin. All texts below are examples,
 		* `{"some": ["one", "two"] }` => `[+some.0+]`, `[+some.1+]`.
 	* Valid values:
 		* `stringJsonObject` — as [JSON](https://en.wikipedia.org/wiki/JSON)
+		* `stringHjsonObject` — as [HJSON](https://hjson.github.io/)
 		* `stringQueryFormated` — as [Query string](https://en.wikipedia.org/wiki/Query_string)
 		* It can also be set as native PHP object or array (e. g. for calls through `$modx->runSnippet`):
 			* `arrayAssociative`
