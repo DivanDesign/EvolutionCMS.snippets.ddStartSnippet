@@ -17,6 +17,9 @@
 		"ddstartsnippet"
 	],
 	"homepage": "https://code.divandesign.biz/modx/ddstartsnippet",
+	"support": {
+		"chat": "https://t.me/dd_code"
+	},
 	"authors": [
 		{
 			"name": "DD Group",
