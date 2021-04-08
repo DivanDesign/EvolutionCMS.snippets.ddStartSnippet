@@ -1,13 +1,13 @@
 <?php
 /**
  * ddStartSnippet
- * @version 1.0 (2020-01-01)
+ * @version 1.0 (2021-01-01)
  * 
  * @see README.md
  * 
  * @link https://code.divandesign.biz/modx/ddstartsnippet
  * 
- * @copyright 2020 DD Group {@link https://DivanDesign.biz }
+ * @copyright 2021 DD Group {@link https://DivanDesign.biz }
  */
 
 //TODO: Если ddTools не используется — удалить этот код
