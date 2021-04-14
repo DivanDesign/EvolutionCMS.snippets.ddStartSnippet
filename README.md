@@ -17,7 +17,10 @@ Here should be placed a description of the plugin. All texts below are examples,
 ### Installation
 
 
-#### 1. Elements → Snippets: Create a new snippet with the following data
+#### Manually
+
+
+##### 1. Elements → Snippets: Create a new snippet with the following data
 
 1. Snippet name: `ddStartSnippet`.
 2. Description: `<b>1.0</b> Snippet description.`.
@@ -26,10 +29,32 @@ Here should be placed a description of the plugin. All texts below are examples,
 5. Snippet code (php): Insert content of the `ddStartSnippet_snippet.php` file from the archive.
 
 
-#### 2. Elements → Manage Files
+##### 2. Elements → Manage Files
 
 1. Create a new folder `assets/snippets/ddStartSnippet/`.
 2. Extract the archive to the folder (except `ddStartSnippet_snippet.php`).
+
+
+#### Using [(MODX)EvolutionCMS.libraries.ddInstaller](https://github.com/DivanDesign/EvolutionCMS.libraries.ddInstaller)
+
+Just run the following PHP code in your sources or [Console](https://github.com/vanchelo/MODX-Evolution-Ajax-Console):
+
+```php
+//Include (MODX)EvolutionCMS.libraries.ddInstaller
+require_once(
+	$modx->getConfig('base_path') .
+	'assets/libs/ddInstaller/require.php'
+);
+
+//Install (MODX)EvolutionCMS.snippets.ddStartSnippet
+\DDInstaller::install([
+	'url' => 'https://github.com/DivanDesign/EvolutionCMS.snippets.ddStartSnippet',
+	'type' => 'snippet'
+]);
+```
+
+* If `ddStartSnippet` is not exist on your site, `ddInstaller` will just install it.
+* If `ddStartSnippet` is already exist on your site, `ddInstaller` will check it version and update it if needed.
 
 
 ### Parameters description
