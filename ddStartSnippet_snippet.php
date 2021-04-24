@@ -10,17 +10,15 @@
  * @copyright 2021 DD Group {@link https://DivanDesign.biz }
  */
 
-//TODO: Если ddTools не используется — удалить этот код
 //Include (MODX)EvolutionCMS.libraries.ddTools
 require_once(
 	$modx->getConfig('base_path') .
 	'assets/libs/ddTools/modx.ddtools.class.php'
 );
 
-//The snippet must return an empty string even if result is absent
-$snippetResult = '';
-
-//TODO: Здесь пишем непосредственно код сниппета.
-
-return $snippetResult;
+return \DDTools\Snippet::runSnippet([
+	//TODO: Change name
+	'name' => 'ddStartSnippet',
+	'params' => $params
+]);
 ?>
