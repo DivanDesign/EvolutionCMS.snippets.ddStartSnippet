@@ -11,16 +11,13 @@ Here should be placed a description of the plugin. All texts below are examples,
 * [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.biz/modx/ddtools) >= 0.48.2
 
 
-## Documentation
+## Installation
 
 
-### Installation
+### Manually
 
 
-#### Manually
-
-
-##### 1. Elements → Snippets: Create a new snippet with the following data
+#### 1. Elements → Snippets: Create a new snippet with the following data
 
 1. Snippet name: `ddStartSnippet`.
 2. Description: `<b>1.0</b> Snippet description.`.
@@ -29,13 +26,13 @@ Here should be placed a description of the plugin. All texts below are examples,
 5. Snippet code (php): Insert content of the `ddStartSnippet_snippet.php` file from the archive.
 
 
-##### 2. Elements → Manage Files
+#### 2. Elements → Manage Files
 
 1. Create a new folder `assets/snippets/ddStartSnippet/`.
 2. Extract the archive to the folder (except `ddStartSnippet_snippet.php`).
 
 
-#### Using [(MODX)EvolutionCMS.libraries.ddInstaller](https://github.com/DivanDesign/EvolutionCMS.libraries.ddInstaller)
+### Using [(MODX)EvolutionCMS.libraries.ddInstaller](https://github.com/DivanDesign/EvolutionCMS.libraries.ddInstaller)
 
 Just run the following PHP code in your sources or [Console](https://github.com/vanchelo/MODX-Evolution-Ajax-Console):
 
@@ -57,7 +54,7 @@ require_once(
 * If `ddStartSnippet` is already exist on your site, `ddInstaller` will check it version and update it if needed.
 
 
-### Parameters description
+## Parameters description
 
 * `someParam1`
 	* Desctription: Parameter description.
@@ -100,10 +97,10 @@ require_once(
 	* Default value: —
 
 
-### Examples
+## Examples
 
 
-#### Example 1 title
+### Example 1 title
 
 Some example description.
 
@@ -112,7 +109,7 @@ Some example description.
 ```
 
 
-#### Run the snippet through `\DDTools\Snippet::runSnippet` without DB and eval
+### Run the snippet through `\DDTools\Snippet::runSnippet` without DB and eval
 
 ```php
 //Include (MODX)EvolutionCMS.libraries.ddTools

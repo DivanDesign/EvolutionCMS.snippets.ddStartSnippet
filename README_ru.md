@@ -11,16 +11,13 @@
 * [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.biz/modx/ddtools) >= 0.48.2
 
 
-## Документация
+## Установка
 
 
-### Установка
+### Вручную
 
 
-#### Вручную
-
-
-##### 1. Элементы → Сниппеты: Создайте новый сниппет со следующими параметрами
+#### 1. Элементы → Сниппеты: Создайте новый сниппет со следующими параметрами
 
 1. Название сниппета: `ddStartSnippet`.
 2. Описание: `<b>1.0</b> Описание сниппета.`.
@@ -29,13 +26,13 @@
 5. Код сниппета (php): Вставьте содержимое файла `ddStartSnippet_snippet.php` из архива.
 
 
-##### 2. Элементы → Управление файлами
+#### 2. Элементы → Управление файлами
 
 1. Создайте новую папку `assets/snippets/ddStartSnippet/`.
 2. Извлеките содержимое архива в неё (кроме файла `ddStartSnippet_snippet.php`).
 
 
-#### Используя [(MODX)EvolutionCMS.libraries.ddInstaller](https://github.com/DivanDesign/EvolutionCMS.libraries.ddInstaller)
+### Используя [(MODX)EvolutionCMS.libraries.ddInstaller](https://github.com/DivanDesign/EvolutionCMS.libraries.ddInstaller)
 
 Просто вызовите следующий код в своих исходинках или модуле [Console](https://github.com/vanchelo/MODX-Evolution-Ajax-Console):
 
@@ -57,7 +54,7 @@ require_once(
 * Если `ddStartSnippet` уже есть на вашем сайте, `ddInstaller` проверит его версию и обновит, если нужно. 
 
 
-### Описание параметров
+## Описание параметров
 
 * `someParam1`
 	* Описание: Описание параметра
@@ -100,10 +97,10 @@ require_once(
 	* Значение по умолчанию: —
 
 
-### Примеры
+## Примеры
 
 
-#### Заголовок конкретного примера
+### Заголовок конкретного примера
 
 Описание примера.
 
@@ -112,7 +109,7 @@ require_once(
 ```
 
 
-#### Запустить сниппет через `\DDTools\Snippet::runSnippet` без DB и eval
+### Запустить сниппет через `\DDTools\Snippet::runSnippet` без DB и eval
 
 ```php
 //Подключение (MODX)EvolutionCMS.libraries.ddTools
