@@ -1,7 +1,7 @@
 # (MODX)EvolutionCMS.snippets.ddStartSnippet changelog
 
 
-## Version 1.0 (2021-01-01)
+## Version 1.0 (2022-01-01)
 * \+ The first release.
 
 

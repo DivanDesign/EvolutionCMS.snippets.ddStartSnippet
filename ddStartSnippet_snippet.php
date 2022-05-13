@@ -1,13 +1,13 @@
 <?php
 /**
  * ddStartSnippet
- * @version 1.0 (2021-01-01)
+ * @version 1.0 (2022-01-01)
  * 
  * @see README.md
  * 
  * @link https://code.divandesign.biz/modx/ddstartsnippet
  * 
- * @copyright 2021 DD Group {@link https://DivanDesign.biz }
+ * @copyright 2022 DD Group {@link https://DivanDesign.biz }
  */
 
 //Include (MODX)EvolutionCMS.libraries.ddTools
