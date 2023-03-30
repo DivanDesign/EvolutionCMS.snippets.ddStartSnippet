@@ -10,10 +10,17 @@ class Snippet extends \DDTools\Snippet {
 		//TODO: Set parameters defaults or remove the property
 		$params = [
 			//Defaults
+			//TODO: Delete it if the parameter is not used
+			'outputterParams' => [
+				'tpl' => '',
+				'placeholders' => [],
+			],
 		],
 		
 		//TODO: Set parameters types or remove the property
 		$paramsTypes = [
+			//TODO: Delete it if the parameter is not used
+			'outputterParams' => 'objectStdClass',
 		]
 	;
 	
