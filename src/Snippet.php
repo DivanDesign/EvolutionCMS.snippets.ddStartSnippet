@@ -21,10 +21,9 @@ class Snippet extends \DDTools\Snippet {
 	 * run
 	 * @version 1.0 (2023-01-01)
 	 * 
-	 * @return {string}
+	 * @return {string|object|array}
 	 */
 	public function run(){
-		//The snippet must return an empty string even if result is absent
 		$result = '';
 		
 		//TODO: Main snippet code must be placed here
