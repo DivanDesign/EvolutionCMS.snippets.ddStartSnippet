@@ -76,7 +76,18 @@ require_once(
 
 ### Параметры вывода
 
-* `tpl`
+* `outputterParams`
+	* Desctription: Параметры вывода.
+	* Valid values:
+		* `stringJsonObject` — в виде [JSON](https://ru.wikipedia.org/wiki/JSON)
+		* `stringHjsonObject` — в виде [HJSON](https://hjson.github.io/)
+		* `stringQueryFormatted` — в виде [Query string](https://en.wikipedia.org/wiki/Query_string)
+		* Также может быть задан, как нативный PHP объект или массив (например, для вызовов через `\DDTools\Snippet::runSnippet`).
+			* `arrayAssociative`
+			* `object`
+	* Default value: —
+	
+* `outputterParams->tpl`
 	* Описание: Какой-то шаблон.  
 		Доступные плейсхолдеры:
 		* `[+somePlaceholder1+]` — описание плейсхолдера 1
@@ -86,20 +97,14 @@ require_once(
 		* `string` — передавать код напрямую без чанка можно начиная значение с `@CODE:`
 	* **Обязателен**
 	
-* `tpl_placeholders`
+* `outputterParams->placeholders`
 	* Описание:
-		Дополнительные данные, которые будут переданы в шаблон `tpl`.  
+		Дополнительные данные, которые будут переданы в шаблон `outputterParams->tpl`.  
 		Вложенные объекты и массивы также поддерживаются:
 		* `{"someOne": "1", "someTwo": "test" }` => `[+someOne+], [+someTwo+]`.
 		* `{"some": {"a": "one", "b": "two"} }` => `[+some.a+]`, `[+some.b+]`.
 		* `{"some": ["one", "two"] }` => `[+some.0+]`, `[+some.1+]`.
-	* Допустимые значения:
-		* `stringJsonObject` — в виде [JSON](https://ru.wikipedia.org/wiki/JSON)
-		* `stringHjsonObject` — в виде [HJSON](https://hjson.github.io/)
-		* `stringQueryFormatted` — в виде [Query string](https://en.wikipedia.org/wiki/Query_string)
-		* Также может быть задан, как нативный PHP объект или массив (например, для вызовов через `$modx->runSnippet`).
-			* `arrayAssociative`
-			* `object`
+	* Допустимые значения: `object`
 	* Значение по умолчанию: —
 
 
