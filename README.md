@@ -56,6 +56,9 @@ require_once(
 
 ## Parameters description
 
+
+### General parameters
+
 * `someParam1`
 	* Desctription: Parameter description.
 	* Valid values:
@@ -69,7 +72,10 @@ require_once(
 		* `0`
 		* `1`
 	* Default value: —
-	
+
+
+### Output parameters
+
 * `tpl`
 	* Desctription: Some template.  
 		Available placeholders:
