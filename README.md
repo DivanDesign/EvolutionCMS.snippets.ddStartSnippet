@@ -8,7 +8,7 @@ Here should be placed a description of the plugin. All texts below are examples,
 
 * PHP >= 5.6
 * [(MODX)EvolutionCMS](https://github.com/evolution-cms/evolution) >= 1.1
-* [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.biz/modx/ddtools) >= 0.48.2
+* [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.biz/modx/ddtools) >= 0.59
 
 
 ## Installation
