@@ -147,4 +147,4 @@ require_once(
 * [GitHub](https://github.com/DivanDesign/EvolutionCMS.snippets.ddStartSnippet)
 
 
-<link rel="stylesheet" type="text/css" href="https://DivanDesign.ru/assets/files/ddMarkdown.css" />
+<link rel="stylesheet" type="text/css" href="https://raw.githack.com/DivanDesign/CSS.ddMarkdown/master/style.min.css" />
