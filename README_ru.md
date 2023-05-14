@@ -14,24 +14,6 @@
 ## Установка
 
 
-### Вручную
-
-
-#### 1. Элементы → Сниппеты: Создайте новый сниппет со следующими параметрами
-
-1. Название сниппета: `ddStartSnippet`.
-2. Описание: `<b>1.0</b> Описание сниппета.`.
-3. Категория: `Core`.
-4. Анализировать DocBlock: `no`.
-5. Код сниппета (php): Вставьте содержимое файла `ddStartSnippet_snippet.php` из архива.
-
-
-#### 2. Элементы → Управление файлами
-
-1. Создайте новую папку `assets/snippets/ddStartSnippet/`.
-2. Извлеките содержимое архива в неё (кроме файла `ddStartSnippet_snippet.php`).
-
-
 ### Используя [(MODX)EvolutionCMS.libraries.ddInstaller](https://github.com/DivanDesign/EvolutionCMS.libraries.ddInstaller)
 
 Просто вызовите следующий код в своих исходинках или модуле [Console](https://github.com/vanchelo/MODX-Evolution-Ajax-Console):
@@ -52,6 +34,24 @@ require_once(
 
 * Если `ddStartSnippet` отсутствует на вашем сайте, `ddInstaller` просто установит его.
 * Если `ddStartSnippet` уже есть на вашем сайте, `ddInstaller` проверит его версию и обновит, если нужно. 
+
+
+### Вручную
+
+
+#### 1. Элементы → Сниппеты: Создайте новый сниппет со следующими параметрами
+
+1. Название сниппета: `ddStartSnippet`.
+2. Описание: `<b>1.0</b> Описание сниппета.`.
+3. Категория: `Core`.
+4. Анализировать DocBlock: `no`.
+5. Код сниппета (php): Вставьте содержимое файла `ddStartSnippet_snippet.php` из архива.
+
+
+#### 2. Элементы → Управление файлами
+
+1. Создайте новую папку `assets/snippets/ddStartSnippet/`.
+2. Извлеките содержимое архива в неё (кроме файла `ddStartSnippet_snippet.php`).
 
 
 ## Описание параметров
