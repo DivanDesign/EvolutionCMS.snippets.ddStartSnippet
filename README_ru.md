@@ -77,15 +77,15 @@ require_once(
 ### Параметры вывода
 
 * `outputterParams`
-	* Desctription: Параметры вывода.
-	* Valid values:
+	* Описание: Параметры вывода.
+	* Допустимые значения:
 		* `stringJsonObject` — в виде [JSON](https://ru.wikipedia.org/wiki/JSON)
 		* `stringHjsonObject` — в виде [HJSON](https://hjson.github.io/)
 		* `stringQueryFormatted` — в виде [Query string](https://en.wikipedia.org/wiki/Query_string)
 		* Также может быть задан, как нативный PHP объект или массив (например, для вызовов через `\DDTools\Snippet::runSnippet`).
 			* `arrayAssociative`
 			* `object`
-	* Default value: —
+	* Допустимые значения: —
 	
 * `outputterParams->tpl`
 	* Описание: Какой-то шаблон.  
