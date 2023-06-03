@@ -85,7 +85,7 @@ require_once(
 		* Также может быть задан, как нативный PHP объект или массив (например, для вызовов через `\DDTools\Snippet::runSnippet`).
 			* `arrayAssociative`
 			* `object`
-	* Допустимые значения: —
+	* Значение по умолчанию: —
 	
 * `outputterParams->tpl`
 	* Описание: Какой-то шаблон.  
