@@ -26,7 +26,7 @@ class Snippet extends \DDTools\Snippet {
 	
 	/**
 	 * run
-	 * @version 1.0 (2023-01-01)
+	 * @version 1.0 (2024-01-01)
 	 * 
 	 * @return {string|object|array}
 	 */
