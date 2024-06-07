@@ -60,14 +60,14 @@ require_once(
 ### General parameters
 
 * `someParam1`
-	* Desctription: Parameter description.
+	* Description: Parameter description.
 	* Valid values:
 		* `string`
 		* `integer`
 	* **Required**
 	
 * `someParam2`
-	* Desctription: Parameter description.
+	* Description: Parameter description.
 	* Valid values:
 		* `0`
 		* `1`
@@ -77,7 +77,7 @@ require_once(
 ### Output parameters
 	
 * `outputterParams`
-	* Desctription: Parameters to be passed to the specified outputter.
+	* Description: Parameters to be passed to the specified outputter.
 	* Valid values:
 		* `stringJsonObject` — as [JSON](https://en.wikipedia.org/wiki/JSON)
 		* `stringHjsonObject` — as [HJSON](https://hjson.github.io/)
@@ -88,7 +88,7 @@ require_once(
 	* Default value: —
 	
 * `outputterParams->tpl`
-	* Desctription: Some template.  
+	* Description: Some template.  
 		Available placeholders:
 		* `[+somePlaceholder1+]` — placeholder 1 description
 		* `[+somePlaceholder2+]` — placeholder 2 description
@@ -98,7 +98,7 @@ require_once(
 	* **Required**
 	
 * `outputterParams->placeholders`
-	* Desctription:
+	* Description:
 		Additional data has to be passed into the `outputterParams->tpl`.  
 		Nested objects and arrays are supported too:
 		* `{"someOne": "1", "someTwo": "test" }` => `[+someOne+], [+someTwo+]`.
