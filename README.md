@@ -110,6 +110,8 @@ require_once(
 
 ## Examples
 
+All examples are written using [HJSON](https://hjson.github.io/), but if you want you can use vanilla JSON instead.
+
 
 ### Example 1 title
 
