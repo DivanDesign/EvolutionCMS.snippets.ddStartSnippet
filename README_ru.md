@@ -28,7 +28,7 @@ require_once(
 //Установка (MODX)EvolutionCMS.snippets.ddStartSnippet
 \DDInstaller::install([
 	'url' => 'https://github.com/DivanDesign/EvolutionCMS.snippets.ddStartSnippet',
-	'type' => 'snippet'
+	'type' => 'snippet',
 ]);
 ```
 
@@ -135,8 +135,8 @@ require_once(
 \DDTools\Snippet::runSnippet([
 	'name' => 'ddStartSnippet',
 	'params' => [
-		'someParam1' => 'Some param value'
-	]
+		'someParam1' => 'Some param value',
+	],
 ]);
 ```
 

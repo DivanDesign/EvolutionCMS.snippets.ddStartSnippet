@@ -19,6 +19,6 @@ require_once(
 return \DDTools\Snippet::runSnippet([
 	//TODO: Change name
 	'name' => 'ddStartSnippet',
-	'params' => $params
+	'params' => $params,
 ]);
 ?>
