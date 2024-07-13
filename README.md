@@ -82,28 +82,27 @@ require_once(
 		* `stringJsonObject` — as [JSON](https://en.wikipedia.org/wiki/JSON)
 		* `stringHjsonObject` — as [HJSON](https://hjson.github.io/)
 		* `stringQueryFormatted` — as [Query string](https://en.wikipedia.org/wiki/Query_string)
-		* It can also be set as native PHP object or array (e. g. for calls through `\DDTools\Snippet::runSnippet` or `$modx->runSnippet`):
+		* It can also be set as a native PHP object or array (e. g. for calls through `\DDTools\Snippet::runSnippet` or `$modx->runSnippet`):
 			* `arrayAssociative`
 			* `object`
 	* Default value: —
 	
 * `outputterParams->tpl`
-	* Description: Some template.  
-		Available placeholders:
-		* `[+somePlaceholder1+]` — placeholder 1 description
-		* `[+somePlaceholder2+]` — placeholder 2 description
+	* Description: Some template.
+		* Available placeholders:
+			* `[+somePlaceholder1+]` — placeholder 1 description
+			* `[+somePlaceholder2+]` — placeholder 2 description
 	* Valid values:
 		* `stringChunkName`
 		* `string` — use inline templates starting with `@CODE:`
 	* **Required**
 	
 * `outputterParams->placeholders`
-	* Description:
-		Additional data has to be passed into the `outputterParams->tpl`.  
-		Nested objects and arrays are supported too:
-		* `{"someOne": "1", "someTwo": "test" }` => `[+someOne+], [+someTwo+]`.
-		* `{"some": {"a": "one", "b": "two"} }` => `[+some.a+]`, `[+some.b+]`.
-		* `{"some": ["one", "two"] }` => `[+some.0+]`, `[+some.1+]`.
+	* Description: Additional data has to be passed into the `outputterParams->tpl`.
+		* Nested objects and arrays are supported too:
+			* `{"someOne": "1", "someTwo": "test" }` => `[+someOne+], [+someTwo+]`.
+			* `{"some": {"a": "one", "b": "two"} }` => `[+some.a+]`, `[+some.b+]`.
+			* `{"some": ["one", "two"] }` => `[+some.0+]`, `[+some.1+]`.
 	* Valid values: `object`
 	* Default value: —
 
