@@ -5,9 +5,9 @@
  * 
  * @see README.md
  * 
- * @link https://code.divandesign.biz/modx/ddstartsnippet
+ * @link https://code.divandesign.ru/modx/ddstartsnippet
  * 
- * @copyright 2024 DD Group {@link https://DivanDesign.biz }
+ * @copyright 2024 Ronef {@link https://Ronef.me }
  */
 
 //Include (MODX)EvolutionCMS.libraries.ddTools

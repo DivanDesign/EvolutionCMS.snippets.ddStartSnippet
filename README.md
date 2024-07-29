@@ -8,7 +8,7 @@ Here should be placed a description of the plugin. All texts below are examples,
 
 * PHP >= 5.6
 * [(MODX)EvolutionCMS](https://github.com/evolution-cms/evolution) >= 1.1
-* [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.biz/modx/ddtools) >= 0.59
+* [(MODX)EvolutionCMS.libraries.ddTools](https://code.divandesign.ru/modx/ddtools) >= 0.59
 
 
 ## Installation
@@ -142,7 +142,7 @@ require_once(
 
 ## Links
 
-* [Home page](https://code.divandesign.biz/modx/ddstartsnippet)
+* [Home page](https://code.divandesign.ru/modx/ddstartsnippet)
 * [Telegram chat](https://t.me/dd_code)
 * [Packagist](https://packagist.org/packages/dd/evolutioncms-snippets-ddstartsnippet)
 * [GitHub](https://github.com/DivanDesign/EvolutionCMS.snippets.ddStartSnippet)
