@@ -7,17 +7,17 @@
  * 
  * @link https://code.divandesign.ru/modx/ddstartsnippet
  * 
- * @copyright 2024 Ronef {@link https://Ronef.me }
+ * @copyright 2024 https://Ronef.me
  */
 
-//Include (MODX)EvolutionCMS.libraries.ddTools
+// Include (MODX)EvolutionCMS.libraries.ddTools
 require_once(
 	$modx->getConfig('base_path')
 	. 'assets/libs/ddTools/modx.ddtools.class.php'
 );
 
 return \DDTools\Snippet::runSnippet([
-	//TODO: Change name
+	// TODO: Change name
 	'name' => 'ddStartSnippet',
 	'params' => $params,
 ]);

@@ -19,13 +19,13 @@ Here should be placed a description of the plugin. All texts below are examples,
 Just run the following PHP code in your sources or [Console](https://github.com/vanchelo/MODX-Evolution-Ajax-Console):
 
 ```php
-//Include (MODX)EvolutionCMS.libraries.ddInstaller
+// Include (MODX)EvolutionCMS.libraries.ddInstaller
 require_once(
-	$modx->getConfig('base_path') .
-	'assets/libs/ddInstaller/require.php'
+	$modx->getConfig('base_path')
+	. 'assets/libs/ddInstaller/require.php'
 );
 
-//Install (MODX)EvolutionCMS.snippets.ddStartSnippet
+// Install (MODX)EvolutionCMS.snippets.ddStartSnippet
 \DDInstaller::install([
 	'url' => 'https://github.com/DivanDesign/EvolutionCMS.snippets.ddStartSnippet',
 	'type' => 'snippet',
@@ -117,20 +117,20 @@ All examples are written using [HJSON](https://hjson.github.io/), but if you wan
 Some example description.
 
 ```
-//Some exmaple code
+// Some exmaple code
 ```
 
 
 ### Run the snippet through `\DDTools\Snippet::runSnippet` without DB and eval
 
 ```php
-//Include (MODX)EvolutionCMS.libraries.ddTools
+// Include (MODX)EvolutionCMS.libraries.ddTools
 require_once(
-	$modx->getConfig('base_path') .
-	'assets/libs/ddTools/modx.ddtools.class.php'
+	$modx->getConfig('base_path')
+	. 'assets/libs/ddTools/modx.ddtools.class.php'
 );
 
-//Run (MODX)EvolutionCMS.snippets.ddStartSnippet
+// Run (MODX)EvolutionCMS.snippets.ddStartSnippet
 \DDTools\Snippet::runSnippet([
 	'name' => 'ddStartSnippet',
 	'params' => [

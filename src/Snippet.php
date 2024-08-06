@@ -1,25 +1,25 @@
 <?php
-//TODO: Change namespace
+// TODO: Change namespace
 namespace ddStartSnippet;
 
 class Snippet extends \DDTools\Snippet {
 	protected
-		//TODO: Change version
+		// TODO: Change version
 		$version = '1.0.0',
 		
-		//TODO: Set parameters defaults or remove the property
+		// TODO: Set parameters defaults or remove the property
 		$params = [
-			//Defaults
-			//TODO: Delete it if the parameter is not used
+			// Defaults
+			// TODO: Delete it if the parameter is not used
 			'outputterParams' => [
 				'tpl' => '',
 				'placeholders' => [],
 			],
 		],
 		
-		//TODO: Set parameters types or remove the property
+		// TODO: Set parameters types or remove the property
 		$paramsTypes = [
-			//TODO: Delete it if the parameter is not used
+			// TODO: Delete it if the parameter is not used
 			'outputterParams' => 'objectStdClass',
 		]
 	;
@@ -33,7 +33,7 @@ class Snippet extends \DDTools\Snippet {
 	public function run(){
 		$result = '';
 		
-		//TODO: Main snippet code must be placed here
+		// TODO: Main snippet code must be placed here
 		
 		return $result;
 	}
